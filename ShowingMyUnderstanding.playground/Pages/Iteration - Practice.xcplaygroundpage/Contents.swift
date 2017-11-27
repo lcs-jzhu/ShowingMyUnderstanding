@@ -31,6 +31,25 @@ let canvas = Canvas(width: 300, height: 300)
 
 // Replace this comment and add your code below...
 
+for v in stride(from: 265, through: 65, by: -100 ){
+   //draws lines starting at left
+    canvas.drawRectangle(bottomLeftX: 15, bottomLeftY: v, width: 25, height: 9)
+    canvas.drawRectangle(bottomLeftX: 65, bottomLeftY: v, width: 25, height: 9)
+    canvas.drawRectangle(bottomLeftX: 115, bottomLeftY: v, width: 25, height: 9)
+    canvas.drawRectangle(bottomLeftX: 165, bottomLeftY: v, width: 25, height: 9)
+    canvas.drawRectangle(bottomLeftX: 215, bottomLeftY: v, width: 25, height: 9)
+    canvas.drawRectangle(bottomLeftX: 265, bottomLeftY: v, width: 25, height: 9)
+    //draws lines that is indented
+    canvas.drawRectangle(bottomLeftX: 40, bottomLeftY: v-20, width: 25, height: 9)
+    canvas.drawRectangle(bottomLeftX: 90, bottomLeftY: v-20, width: 25, height: 9)
+    canvas.drawRectangle(bottomLeftX: 140, bottomLeftY: v-20, width: 25, height: 9)
+    canvas.drawRectangle(bottomLeftX: 190, bottomLeftY: v-20, width: 25, height: 9)
+    canvas.drawRectangle(bottomLeftX: 240, bottomLeftY: v-20, width: 25, height: 9)
+    
+    
+}
+
+
 
 /*:
  ## Template code
