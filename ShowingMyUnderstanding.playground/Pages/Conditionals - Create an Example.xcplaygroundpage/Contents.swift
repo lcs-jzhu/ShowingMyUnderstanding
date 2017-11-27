@@ -20,6 +20,10 @@ import PlaygroundSupport
 let canvas = Canvas(width: 300, height: 300)
 
 // Replace this command and add your code below...
+let colorType = random(from: 0, toButNotIncluding: 5)
+
+
+
 
 /*:
  ## Template code
